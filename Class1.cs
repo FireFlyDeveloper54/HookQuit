@@ -1,7 +1,7 @@
 ﻿using HarmonyLib;
 using MelonLoader;
 
-namespace HookQuit
+namespace FIREFLYBEST
 {
 	public class Main : MelonMod { }
 

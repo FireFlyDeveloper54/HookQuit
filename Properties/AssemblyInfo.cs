@@ -1,33 +1,22 @@
-﻿using System.Reflection;
+﻿using System;
+using System.Diagnostics;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Runtime.Versioning;
+using MelonLoader;
 
-// 有关程序集的一般信息由以下
-// 控制。更改这些特性值可修改
-// 与程序集关联的信息。
-[assembly: AssemblyTitle("HookQuit")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("HookQuit")]
-[assembly: AssemblyCopyright("Copyright ©  2026")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-
-// 将 ComVisible 设置为 false 会使此程序集中的类型
-//对 COM 组件不可见。如果需要从 COM 访问此程序集中的类型
-//请将此类型的 ComVisible 特性设置为 true。
-[assembly: ComVisible(false)]
-
-// 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("c673e7fa-b7e6-4ab9-aca5-715535911540")]
-
-// 程序集的版本信息由下列四个值组成: 
-//
-//      主版本
-//      次版本
-//      生成号
-//      修订号
-//
 [assembly: AssemblyVersion("1.0.0.0")]
+[assembly: CompilationRelaxations(8)]
+[assembly: RuntimeCompatibility(WrapNonExceptionThrows = true)]
+[assembly: MelonInfo(typeof(FIREFLYBEST.Main), "h00K qU1t", "1.0", "Elysia_1337", null)]
+[assembly: AssemblyTitle("D1ck")]
+[assembly: AssemblyDescription("Unity Bypass Application.Quit LOL")]
+[assembly: AssemblyConfiguration("BBBBBBBBBBB")]
+[assembly: AssemblyCompany("Love❤ Fr0m TSXWHDG")]
+[assembly: AssemblyProduct("BBBBBBBBBBBBBB")]
+[assembly: AssemblyCopyright("Copyright ©  2025")]
+[assembly: AssemblyTrademark("")]
+[assembly: ComVisible(false)]
+[assembly: Guid("9d67dc7b-ebaf-4060-963e-e0fd4e7f3d7a")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
